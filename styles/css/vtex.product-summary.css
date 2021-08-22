@@ -1,0 +1,43 @@
+.element {
+    background: #424242;
+    padding: 0;
+}
+
+.nameContainer {
+    padding: 16px 0;
+}
+
+.productNameContainer {
+    color: #fff;
+    padding: 6px;
+
+}
+
+.productBrand {
+    font-size: 1.25rem;
+}
+
+.imageNormal {
+    max-height: none;
+}
+
+.buyButtonContainer {
+    padding: 12px;
+}
+
+.buyButton :global(.vtex-button) {
+    background: #59ff00;
+    border-color: #59ff00;
+    color: #3c3c3c;
+}
+
+.buyButton :global(.vtex-button):hover {
+    background: #3eb200;
+    border-color: #3eb200;
+}
+
+.sellingPriceLabel,
+.sellingPrice {
+    color: #59ff00;
+    font-weight: 600;
+}
